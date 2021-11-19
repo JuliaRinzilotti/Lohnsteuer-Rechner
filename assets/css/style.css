@@ -7,12 +7,11 @@
 body {
     background-color: rosybrown;
     padding: 5vmax;
-    /* text-align: center; */
 }
 
 section {
     margin: 0 auto;
-    width: 45vmax;
+    width: 50vmax;
 }
 
 h1 {
@@ -26,7 +25,7 @@ article {
 
 label, input, select {
     display: block;
-    margin-left: 5px;
+    margin: 0 0 0 4px;
 }
 
 
@@ -42,21 +41,12 @@ input, select {
     padding: 5px;
     display: block;
     background-color: rgb(125, 155, 185);
-
     margin-top: 30px;
 }
 
 .erg {
     font-family: Avenir;
-    color: crimson;
+    color: rgb(186, 10, 45);
     font-weight: bold;
-    padding-top: 5vh;
+    padding: 5vh 0 0 0;
 }
-
-
-/* Media Queries */
-
-
-/* @media screen  {
-    
-} */
