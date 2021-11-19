@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lohnsteuer-Rechner</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <section>
+        <h1>Einkommenssteuer-Rechner</h1>
+        <form action="" onsubmit="return false">
+            <article>
+                <label for="">Jahr</label>
+                <select name="" id="jahr">
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                </select>
+            </article>
+            <article>
+                <label for="">Zu versteuerndes Einkommen in Euro</label>
+                <input type="number" id="einkommen">
+            </article>
+            <article>
+                <label for="">Art der Veranlagung</label>
+                <select name="" id="veranlagung">
+                    <option value="1">Einzelveranlagung</option>
+                    <option value="2">Zusammenveranlagung</option>
+                </select>
+            </article>
+            <input type="button" value="Berechnen" onclick="berechnen()" class="btn">
+        </form>
+        <div class="erg" id="ergebnis"></div>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

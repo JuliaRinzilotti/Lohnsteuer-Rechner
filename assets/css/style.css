@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rosybrown;
+    padding: 5vmax;
+    /* text-align: center; */
+}
+
+section {
+    margin: 0 auto;
+    width: 45vmax;
+}
+
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0 0 3vh 0;
+}
+
+article {
+    padding: 0 0 2vh 0;
+}
+
+label, input, select {
+    display: block;
+    margin-left: 5px;
+}
+
+
+label {
+    font-family: Avenir;
+    padding: 0 2vw 0 0;
+}
+
+input, select {
+    padding: 3px;
+}
+.btn {
+    padding: 5px;
+    display: block;
+    background-color: rgb(125, 155, 185);
+
+    margin-top: 30px;
+}
+
+.erg {
+    font-family: Avenir;
+    color: crimson;
+    font-weight: bold;
+    padding-top: 5vh;
+}
+
+
+/* Media Queries */
+
+
+/* @media screen  {
+    
+} */
